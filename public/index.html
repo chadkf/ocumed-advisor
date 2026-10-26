@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="OcuMed Advisor — Ocular side effects of medications. Clinical reference and patient education tool for eye care professionals." />
+    <title>OcuMed Advisor</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #f8f8f6;
+        color: #1a1a18;
+        min-height: 100vh;
+      }
+      #root {
+        max-width: 740px;
+        margin: 0 auto;
+        padding: 32px 20px 80px;
+      }
+      :root {
+        --color-background-primary: #ffffff;
+        --color-background-secondary: #f3f3f0;
+        --color-background-tertiary: #f8f8f6;
+        --color-background-info: #e6f1fb;
+        --color-text-primary: #1a1a18;
+        --color-text-secondary: #5f5e5a;
+        --color-text-tertiary: #888780;
+        --color-text-info: #185fa5;
+        --color-border-tertiary: rgba(26,26,24,0.15);
+        --color-border-secondary: rgba(26,26,24,0.3);
+        --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --border-radius-md: 8px;
+        --border-radius-lg: 12px;
+      }
+      input, select, textarea, button {
+        font-family: inherit;
+        font-size: 14px;
+        outline: none;
+      }
+      input, select, textarea {
+        border: 0.5px solid var(--color-border-secondary);
+        border-radius: var(--border-radius-md);
+        padding: 8px 12px;
+        background: var(--color-background-primary);
+        color: var(--color-text-primary);
+      }
+      button {
+        border: 0.5px solid var(--color-border-secondary);
+        border-radius: var(--border-radius-md);
+        background: transparent;
+        color: var(--color-text-primary);
+        cursor: pointer;
+        padding: 7px 14px;
+      }
+      button:hover { background: var(--color-background-secondary); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
